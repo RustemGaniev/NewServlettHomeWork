@@ -1,11 +1,8 @@
 package ru.netology.servlet;
-
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import ru.netology.config.JavaConfig;
 import ru.netology.controller.PostController;
 import ru.netology.exception.NotFoundException;
-import ru.netology.repository.PostRepository;
-import ru.netology.service.PostService;
+
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
